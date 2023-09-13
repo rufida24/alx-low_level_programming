@@ -3,26 +3,32 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * Discription: print the value of nstatus:
- * 		greater than, is zero and is not less than 6.
- *
- * Return: 0 (success)
-*/
+ * main - this is a function
+ * Return: number generated
+ */
+
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
-	int n, digit;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	digit = n % 10;
-
-	if (digit > 5)
-		printf("Last digit of %i is %i and is greater than 5\n", n, digit);
-	else if (digit == 0)
-		printf("Last digit of %i is %i and is 0\n", n, digit);
-	else if (digit < 6 && digit != 0)
-		 printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
+	/* your code goes there */
+	m = n % 10;
+	if (m > s)
+	{
+	printf("last digit of %d is %d greater than 5\n", n, m);
+	}
+	else if (m < 6 && m != 0)
+	{
+	printf("last digit of %d is %d is less than 6 and not 0\n", n, m);
+	}
+	else
+        {
+        printf("last digit of %d is %d and is 0\n", n. m);
+	}
 	return (0);
 }
